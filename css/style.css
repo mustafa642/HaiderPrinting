@@ -1,0 +1,95 @@
+.navbar {
+    padding: 0px;
+}
+.nav-link {
+    font-weight: 700;
+    font-family: 'Lobster';
+    font-size: 17px;
+    transition: 600ms;
+}
+.nav-item {
+    padding: 10px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.navbar-brand {
+  font-family: 'Dancing Script';
+  padding: 10px;
+}
+.hvr-underline-from-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    background: black;
+    height: 4px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
+    left: 0;
+  }
+  .bi-cart3 {
+    font-size: 17px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 80vh;
+  }
+  .nav-link span {
+    color: black;
+  }
+  .gg {
+    height: 80vh;
+  }
+  .col-sm-6 img {
+    width: 100%;
+    height: 80%;
+    transform: rotate(7deg);
+    margin-top: 10%;
+  }
+  .ff {
+    text-align: center;
+    margin-top: 25vh;
+  }
+  .hello-color {
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+  }
+  h1 {
+    font-family: 'Merriweather Sans';
+    font-weight: 900;
+    font-size: 4rem;
+  }
+  h3 {
+    font-family: 'Merriweather Sans';
+    font-weight: 800;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+  .navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  @media(max-width: 450px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .gg {
+      height: 100%;
+    }
+  }
